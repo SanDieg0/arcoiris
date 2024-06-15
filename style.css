@@ -19,6 +19,7 @@ body {
     
 }
 
+/*TEXTOS E IMAGENES*/
 a {
     color: #007BFF;
     text-decoration: none;
@@ -36,8 +37,30 @@ div{
     align-self: center;
 }
 
+/* BOTON*/
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+/*CENTRADO DE ELEMENTOS*/
 html, body {
     height: 100%;
     margin: 0;
@@ -51,3 +74,15 @@ html, body {
     height: 200px; /* Ajusta según tus necesidades */
 
 }
+
+
+
+
+/*PARA CODIGO JS*/
+#boton{
+    display: block;
+}
+/* #contenedorLetra{
+    display: none; 
+} */
+
