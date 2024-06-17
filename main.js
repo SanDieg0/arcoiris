@@ -44,11 +44,10 @@ Así funciona, ¿sabías?
 Solo debes mirarme, en mi profunda tristeza;
 Con tus dos grandes luceros, a mis ojos lluviosos;
 y así hacerme feliz, hacerte feliz, y el cielo llenar de colores.
-.
-..
-...
+☀️
+🌧️
+🌈
 `
-
 let botonArcoiris = document.getElementById("boton");
 let letraArcoiris = document.getElementById("contenedorLetra")
 botonArcoiris.style.display = "block";
@@ -106,6 +105,33 @@ function intervalo() {
         const { value, done } = insertarTexto.next();
         if (!done) {
             setTimeout(nextFrase, value);
+        }else{
+            letraArcoiris.innerHTML = `
+            Un arcoíris<br>
+            Mandado a hacer,<br>
+            Especialmente para ti, solo para ti<br>
+            Todos lo ven, pero, es solo tuyo.<br>
+<br>
+            Sí, está hecho de agua…<br>
+            Agua que herví de mis lágrimas,<br>
+            Y luz…<br>
+            Luz que recojo cada vez que abres los ojos.<br>
+<br>
+            Sin contacto entre fotones de luz<br>
+             y agua condensada del aire<br>
+            No hay refracción, no hay reflexión ni división del color;<br>
+            Sin organización y proyección,<br>
+            No hay cambio, no hay asombro, no hay sorpresa.<br>
+<br>
+            Por eso no se puede eliminar el contacto,<br>
+            No puedes hacerlo brillar, sin antes haberlos juntado.<br>
+<br>
+            Así funciona, ¿sabías?<br>
+<br>
+            Solo debes mirarme, en mi profunda tristeza;<br>
+            Con tus dos grandes luceros, a mis ojos lluviosos;<br>
+            y así hacerme feliz, hacerte feliz, y el cielo llenar de colores.<br>
+            ☀️+🌧️=🌈<br><br>                                   To my Sun from your Deluge`;
         }
     }
     nextFrase();

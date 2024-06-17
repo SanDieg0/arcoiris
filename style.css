@@ -69,12 +69,11 @@ html, body {
     align-items: center;
 
 }
-html{
+/* html{
 
-    background: linear-gradient(90deg, rgba(255,0,0,0.03) 0%, rgba(255,127,0,0.03) 14.3%, rgba(255,255,0,0.03) 28.6%, rgba(0,255,0,0.03) 42.85%, rgba(0,0,255,0.03) 57.14%, rgba(75,0,130,0.03) 71.42%, rgba(143,0,255,0.03) 85.71%);
+    background: linear-gradient(90deg, rgba(255,0,0,0.02) 0%, rgba(255,127,0,0.02) 14.3%, rgba(255,255,0,0.02) 28.6%, rgba(0,255,0,0.02) 42.85%, rgba(0,0,255,0.02) 57.14%, rgba(75,0,130,0.02) 71.42%, rgba(143,0,255,0.02) 85.71%);
 
-
-}
+} */
 
 .centered-div {
     width: 300px; /* Ajusta según tus necesidades */
