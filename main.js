@@ -86,7 +86,7 @@ function tiempoFrase(frase) {
     } else if (frase.length < 20) {
         return 3000;
     } else {
-        return 5000;
+        return 4750;
     }
 }
 
